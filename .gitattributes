@@ -1,3 +1,2 @@
-* linguist-vendored
-*.bas linguist-vendored=false
+*.bas linguist-detectable=false
 *.bas linguist-language=Bascom
