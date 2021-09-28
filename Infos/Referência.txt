@@ -1,0 +1,37 @@
+Brother MFC-490CW
+
+Display:
+CMG48MC1
+L203037-1
+
+wide 3.3" color LCD
+28-wire
+
+VCC = 3.3V
+Backlight = 6.0V (por resistência)
+
+Nº Cores = 255
+Configuração RGB por byte = RRRBBGGG
+
+Quadros = 2
+2 x (132 x 176)
+Quadro 1 = DB8..DB15
+Quadro 2 = DB0..DB7
+
+Configurações:
+- Posição Y de começo, e Y de final de escrita
+- Inversão de cores
+- Troca de quadros
+- Inversão de Y, X ou ambas
+
+Sequência:
+Header(312B) - Data(23232B por quadro)- End(30B)
+
+
+CTRL:
+12 = RSTB = RESET
+14 = WDB = WRITE DATA
+11 = CS1B = CHIP SELECT
+13 = RS = REGISTER SELECT
+15 = RDB = READ DATA
+
