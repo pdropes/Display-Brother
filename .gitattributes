@@ -1,2 +1,1 @@
-* linguist-vendored
-*.rb linguist-language=Bascom_AVR
+*.bas linguist-language=Bascom_AVR
