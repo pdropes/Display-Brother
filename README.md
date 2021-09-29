@@ -1,3 +1,6 @@
+<img src="Photos/Tetris-top.jpg" width=640>
+
+  
 # Display-Brother
 Reverse engineering a display
 
